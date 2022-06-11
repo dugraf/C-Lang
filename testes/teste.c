@@ -1,24 +1,21 @@
 #include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
-int
-main()
-
+int main() 
 {
 
-    int c = 2;
-    int d = 6;
-
-    if ((c < 3) && (d > 2) && (d > c))
-    {
-        int b = c - d;
-        printf("%d", b);
-    }
+    char ch[100];
+    scanf("%s", ch);   
+     
+    char s[100];
+    scanf("%s", s);
     
-    else
-    {
-        int a = (c + d) / 2;
-
-        printf("%d", a);
-    }
-
+    char sen[100];
+    scanf("%s", sen);
+    
+    printf("\n\n\n%s\n", ch);
+    printf("%s\n", s);
+    printf("%s", sen);
 }
